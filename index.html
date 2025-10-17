@@ -1,0 +1,574 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nepali Pasal</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+  <nav>
+    
+  <div id="pasal"><a href="">
+    <img src="logopasal.png" alt="Nepal Flag"></a>
+  </div>
+
+  <div class="search-pr">
+    <input type="text" id="searchInput" placeholder="Search products...">
+<button class="btn" onclick="searchInputFunction()">Search</button>
+</div>
+  <ul>
+    <li><a href="#fresh">Fresh Foods</a></li>
+    <li><a href="#dry">Dry Foods</a></li>
+    <li><a href="#essentials">Essentials Products</a></li>
+   
+  </ul>
+</nav>
+  
+
+  <header>
+    <h1><span class="first-two">Welcome To Hamro Kirana</span> Pasal Malaga</h1>
+     <p>Nepali and Indian products store</p>
+  </header>
+
+  <div id="about-shop">
+    <img src="images/grocery.png">
+     <div id="text-box">
+    <div id="nepalima">"_____मालागामा पहिलो पटक नेपाली किराना पसलमा तपाईंलाई हार्दिक स्वागत छ! हामी गर्वका साथ तपाईंलाई घर र संस्कृतिको स्वाद दिने प्रामाणिक र परम्परागत नेपाली सामानहरू ल्याएका छौँ। दैनिक आवश्यकतादेखि दुर्लभ मसला र परिकारसम्म, हाम्रो पसल नेपाली सामग्री खोज्ने सबैका लागि उत्कृष्ट विकल्प हो। हामीले प्रामाणिकतासँगै तपाईंलाई सबैभन्दा उचित मूल्यमा उपलब्ध गराउँछौं। तपाईंको सुविधाका लागि, हामी डेलिभरी सेवासमेत दिन्छौं — तपाईंले WhatsApp वा प्रत्यक्ष फोनमार्फत सजिलै अर्डर गर्न सक्नुहुन्छ, र हामी तपाईंको ढोकासम्म सामान पुर्‍याउँछौं। हाम्रो पसलमा किनमेल गर्नु भनेको केवल सामान किन्ने होइन — यो मालागामै नेपालका स्वाद, परम्परा, र आत्मीयता महसुस गर्ने अनुभव हो।"</div>
+    <div id="englishma">"_____Welcome to the very first Nepali Grocery Store in Málaga! We are proud to bring you authentic and traditional Nepali products that remind you of home and culture. From everyday essentials to rare spices and delicacies, our store offers the best options for anyone seeking genuine Nepali ingredients. Not only do we ensure authenticity, but we also offer them at the best prices in town. For your convenience, we provide a delivery service — place your orders easily through WhatsApp or direct calls, and we’ll bring your groceries straight to your doorstep. At our store, you’re not just shopping — you’re connecting with the rich taste, tradition, and warmth of Nepal right here in Málaga."</div>
+  </div>
+  </div>
+
+  <hr>
+
+<!-- Dry Foods Section -->
+<h2 id="dry">Dry Foods</h2>
+
+<div class="product-grid">
+  <section class="product">
+    <img src="images/HEER-BASMATI-RICE-20KG.jpg" alt="Rice">
+    <h3>Rice</h3>
+    <p>Price: €45.50 / 20kg</p>
+    <p class="details">Long grain Basmati rice, imported.</p>
+    <button class="toggle-btn">Show Details</button>
+  </section>
+
+  <section class="product">
+    <img src="images/RED-MASOOR-SPLIT-1KG.png" alt="masoor">
+    <h3>Masoor Daal</h3>
+    <p>Price: €3.50 / pack</p>
+    <p class="details">Red Masoor Daal, imported</p>
+    <button class="toggle-btn">Show Details</button>
+    
+  </section>
+
+  <section class="product">
+    <img src="images/bhango.jpg" alt="bhango">
+    <h3>Bhango</h3>
+    <p>Price: €3.50 / pack</p>
+    <p class="details">Bhango</p>
+    <button class="toggle-btn">Show Details</button>
+  </section>
+
+   <section class="product">
+    <img src="images/chiura.jpg" alt="chiura">
+    <h3>Chiura</h3>
+    <p>Price: €3.50 / pack</p>
+    <p class="details">Chiura</p>
+    <button class="toggle-btn">Show Details</button>
+  </section>
+
+   <section class="product">
+    <img src="images/kodo ko pitho.jpg" alt="kodo">
+    <h3>Kodo ko Pitho</h3>
+    <p>Price: €3.50 / pack</p>
+    <p class="details">Kodo ko Pitho</p>
+    <button class="toggle-btn">Show Details</button>
+  </section>
+
+   <section class="product">
+    <img src="images/elephant_atta.jpg" alt="aata">
+    <h3>Aata</h3>
+    <p>Price: €3.50 / pack</p>
+    <p class="details">Wheat flour</p>
+    <button class="toggle-btn">Show Details</button>
+  </section>
+
+   <section class="product">
+    <img src="images/bucketwheat-flour.jpg" alt="phapar">
+    <h3>Phapar ko Pitho</h3>
+    <p>Price: €3.50 / pack</p>
+    <p class="details">Phapar ko Pitho</p>
+    <button class="toggle-btn">Show Details</button>
+  </section>
+
+  <section class="product">
+  <img src="images/taichin .png" alt="Taichin chiura">
+  <h3>Taichin Chiura</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Taichin Chiura</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="images/matar dal.jpeg" alt="Matar Daal">
+  <h3>Matar Daal</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Matar Daal</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="images/maas ko dal.png" alt="Kalo Maas">
+  <h3>Kalo Maas</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Kalo Maas</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="images/Natco-Mung-Dal-Yellow-2.jpg" alt="Mung Daal">
+  <h3>Mung Daal</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Mung Daal</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="images/Natco-brown-chickpeas.jpg" alt="Kabuli Chana">
+  <h3>Chana Daal</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Chana, Chana Daal, Kabuli Chana</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="images/Natco-Red-Kidney-beans.jpg" alt="Rajma">
+  <h3>Rajma</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Rajma</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="images/brown-soyabean.jpg" alt="Bhatmas">
+  <h3>Bhatmas</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Kalo Bhatmas</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="images/Untitled.jpeg" alt="Gahat ko Daal">
+  <h3>Gahat ko Daal</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Gahat ko Daal</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+
+   <section class="product">
+    <img src="images/bhuja.jpg" alt="bhuja">
+    <h3>Bhuja</h3>
+    <p>Price: €3.50 / pack</p>
+    <p class="details">Bhuja</p>
+    <button class="toggle-btn">Show Details</button>
+  </section>
+
+  <section class="product">
+    <img src="images/TRS-Garam-Masala.jpg" alt="Garam masala">
+    <h3>Garam Masala</h3>
+    <p>Price: €3.50 / pack</p>
+    <p class="details">TRS Garam Masala</p>
+    <button class="toggle-btn">Show Details</button>
+  </section>
+
+  <section class="product">
+  <img src="images/Trs-termeric-Powder.jpg" alt="Besar">
+  <h3>Besar</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">TRS termeric powder Besar</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="images/Trs-Jeera-Powder.jpg" alt="Jeera">
+  <h3>Jeera Powder</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Jeera Powder</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="images/Trs-Jeers-100-g-300x300.jpeg" alt="Jeera">
+  <h3>Jeera whole Grain</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Jeera Whole Grain</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="images/dhaniya powder.jpg" alt="Dhaniya">
+  <h3>Dhaniya Powder</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Dhaniya powder</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="images/Trs-Chilli-Powder-300x300.jpg" alt="chilli Powder">
+  <h3>Chilli Powder</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Extra Hot Chilli Powder</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+
+
+<section class="product">
+  <img src="images/methi.jpg" alt="Methi">
+  <h3>Methi</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Methi</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="images/tori dana.png" alt="Tori ko Daana">
+  <h3>Tori ko Daana</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Tori ko Daana</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="images/jwano.jpg" alt="Jwano">
+  <h3>Jwano</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Jwano</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="images/hing.png" alt="Hing">
+  <h3>Hing</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Hing</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="images/elaichi.png" alt="Kalo Elaichi">
+  <h3>Kalo Elaichi</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Kalo Elaichi</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="images/elaichi.png" alt="Hariyo Elaichi">
+  <h3>Hariyo Elaichi</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Hariyo Elaichi</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="images/lwang.jpg" alt="Lwang">
+  <h3>Lwang</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Lwang</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="images/dalchini.jpg" alt="Dalchini">
+  <h3>Dalchini</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Dalchini</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="images/tejpatta.jpg" alt="Tejpatta">
+  <h3>Tejpatta</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Tejpatta</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="images/timur.png" alt="Timur">
+  <h3>Timur</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Timur</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="images/Trs-Chilli-Powder-300x300.jpg" alt="Khursani ko Dhulo">
+  <h3>Khursani ko Dhulo</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Khursani ko Dhulo</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="" alt="Achar (Aap, Kagati, Khursani, Lapsi)">
+  <h3>Achar (Aap, Kagati, Khursani, Lapsi)</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Achar (Aap, Kagati, Khursani, Lapsi)</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="images/BirenNunDhikaPNG.webp" alt="Noon, Biraune Noon">
+  <h3>Biraune Noon</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Biraune Noon</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+<section class="product">
+  <img src="images/wai wai.jpg" alt="Wai Wai">
+  <h3>Wai Wai</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Wai Wai Chau Chau</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="images/Rara-noodles.png" alt="Rara">
+  <h3>Rara</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Rara Chau Chau</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="images/rumpumChicken.webp" alt="Rumpum">
+  <h3>Rumpum</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Rumpum Chau Chau</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="images/2pm-Akabare-Chicken-3d_1024x.webp" alt="2PM">
+  <h3>2PM</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">2PM Chau Chau</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="images/papad.jpeg" alt="Papad">
+  <h3>Papad</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Papad</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="" alt="Bhujia">
+  <h3>Bhujia</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Bhujia</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="" alt="Chiura Mix">
+  <h3>Chiura Mix</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Chiura Mix</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="" alt="Chana Mix">
+  <h3>Chana Mix</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Chana Mix</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="" alt="Chips">
+  <h3>Chips</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Chips</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="images/tokala chiya.webp" alt="Chiya Patti">
+  <h3>Tokala Chiya Patti</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Chiya Patti Tokala.</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+<section class="product">
+  <img src="images/ghee.jpeg" alt="Ghiu">
+  <h3>Ghiu</h3>
+  <p>Price: €3.50 / pack</p>
+  <p class="details">Ghiu</p>
+  <button class="toggle-btn">Show Details</button>
+</section>
+
+
+</div>
+
+<hr>
+
+<!-- Fresh Foods Section -->
+<h2 id="fresh">Fresh Foods</h2>
+<div class="product-grid">
+  <section class="product">
+    <img src="images/rayo saag.jpeg" alt="saag">
+    <h3>Rayo Saag</h3>
+    <p>Price: €2.00 / kg</p>
+    <p class="details">Fresh rayo saad grown in portugal.</p>
+    <button class="toggle-btn">Show Details</button>
+  </section>
+
+  <section class="product">
+    <img src="images/hariyo-khursani.jpg" alt="khursani">
+    <h3>Khursaani</h3>
+    <p>Price: €15.5 / kg</p>
+    <p class="details">Hariyo Khursaani grown in portugal.</p>
+    <button class="toggle-btn">Show Details</button>
+  </section>
+
+
+  <section class="product">
+    <img src="images/tite karela.jpg" alt="karela">
+    <h3>Tite Karela</h3>
+    <p>Price: €20 / kg</p>
+    <p class="details">Tite Karela grown in portugal.</p>
+    <button class="toggle-btn">Show Details</button>
+  </section>
+
+  <section class="product">
+    <img src="images/dalle khursani.webp" alt="dalle khursani">
+    <h3>Dalle Khursani</h3>
+    <p>Price: €20 / kg</p>
+    <p class="details">Dalle Kursani.</p>
+    <button class="toggle-btn">Show Details</button>
+  </section>
+</div>
+
+<h2 id="essentials">Essentials Products</h2>
+<div class="product-grid">
+  <section class="product">
+    <img src="images/Hawkins-Pressure-Cooker1.jpg" alt="pressure coocker">
+    <h3>Pressure Coocker</h3>
+    <p>Price: €2.00 / kg</p>
+    <p class="details">Pressure Coockers 2lt, 3lt, 5lt.</p>
+    <button class="toggle-btn">Show Detailtls</button>
+  </section>
+
+  <section class="product">
+    <img src="images/momo-conntaier-300x300.jpg" alt="Momo Steamer">
+    <h3>Mo:Mo Steamer</h3>
+    <p>Price: €2.00 / kg</p>
+    <p class="details">Mo:Mo Steamer.</p>
+    <button class="toggle-btn">Show Detailtls</button>
+  </section>
+
+   <section class="product">
+    <img src="images/abir.png" alt="Abir">
+    <h3>Abir</h3>
+    <p>Price: €2.00 / kg</p>
+    <p class="details">Abir</p>
+    <button class="toggle-btn">Show Detailtls</button>
+  </section>
+
+   <section class="product">
+    <img src="images/Kanchanjunga-removebg-preview-2.png" alt="Incense">
+    <h3>Incense (Dhup)</h3>
+    <p>Price: €2.00 / kg</p>
+    <p class="details">Kanchenjunga Incense (Dhup).</p>
+    <button class="toggle-btn">Show Detailtls</button>
+  </section>
+
+  <section class="product">
+    <img src="images/colors.png" alt="colour">
+    <h3>Tihar Color</h3>
+    <p>Price: €2.00 / kg</p>
+    <p class="details">Color for Tihar tika</p>
+    <button class="toggle-btn">Show Detailtls</button>
+  </section>
+
+</div>
+
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-section">
+      <h4>Contact Us</h4>
+      <p>Phone: +351 915 662 368</p>
+      <p>Email: info@kiranapasal.com</p>
+    </div>
+
+    <div class="footer-section">
+      <h4>Address</h4>
+      <p>Vialia</p>
+      <p>Explanada de la Estación, S/N, Centro Comercial Vialia, Distrito Centro, 29002 Málaga, Spain</p>
+    </div>
+
+    <div class="footer-section">
+      <h4>Information</h4>
+      <p>Opening Hours: 11am - 8pm</p>
+    </div>
+
+    <div class="footer-section">
+       <h4>Follow us on social media:</h4>
+       
+   <div class="social">
+  
+    <!-- Facebook -->
+    <a href="https://facebook.com" target="_blank" class="icon" aria-label="Facebook">
+      <svg viewBox="0 0 24 24" fill="#1877F2" xmlns="http://www.w3.org/2000/svg">
+        <path d="M22.675 0H1.325C.593 0 0 .593 0 1.326v21.348C0 23.407.593 24 1.325 24h11.495v-9.294H9.691V11.09h3.129V8.414c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.098 2.795.142v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.319h3.587l-.467 3.616h-3.12V24h6.116C23.407 24 24 23.407 24 22.674V1.326C24 .593 23.407 0 22.675 0z"/>
+      </svg>
+    </a>
+
+    <!-- Instagram -->
+    <a href="https://instagram.com" target="_blank" class="icon" aria-label="Instagram">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <radialGradient id="ig-gradient" cx="30%" cy="107%" r="150%">
+          <stop offset="0%" stop-color="#fdf497"/>
+          <stop offset="5%" stop-color="#fdf497"/>
+          <stop offset="45%" stop-color="#fd5949"/>
+          <stop offset="60%" stop-color="#d6249f"/>
+          <stop offset="90%" stop-color="#285AEB"/>
+        </radialGradient>
+        <path fill="url(#ig-gradient)" d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.35 3.608 1.325.975.975 1.263 2.242 1.325 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.35 2.633-1.325 3.608-.975.975-2.242 1.263-3.608 1.325-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.35-3.608-1.325-.975-.975-1.263-2.242-1.325-3.608C2.175 15.747 2.163 15.367 2.163 12s.012-3.584.07-4.85c.062-1.366.35-2.633 1.325-3.608C4.533 2.583 5.8 2.295 7.166 2.233 8.432 2.175 8.812 2.163 12 2.163zm0 1.837c-3.163 0-3.532.012-4.777.07-1.045.048-1.61.216-1.986.362-.5.194-.857.427-1.233.803-.376.376-.609.733-.803 1.233-.146.376-.314.941-.362 1.986-.058 1.245-.07 1.614-.07 4.777s.012 3.532.07 4.777c.048 1.045.216 1.61.362 1.986.194.5.427.857.803 1.233.376.376.733.609 1.233.803.376.146.941.314 1.986.362 1.245.058 1.614.07 4.777.07s3.532-.012 4.777-.07c1.045-.048 1.61-.216 1.986-.362.5-.194.857-.427 1.233-.803.376-.376.609-.733.803-1.233.146-.376.314-.941.362-1.986.058-1.245.07-1.614.07-4.777s-.012-3.532-.07-4.777c-.048-1.045-.216-1.61-.362-1.986a3.432 3.432 0 0 0-.803-1.233 3.432 3.432 0 0 0-1.233-.803c-.376-.146-.941-.314-1.986-.362-1.245-.058-1.614-.07-4.777-.07zM12 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998zm7.2-10.845a1.44 1.44 0 1 1 0-2.88 1.44 1.44 0 0 1 0 2.88z"/>
+      </svg>
+    </a>
+
+    <!-- TikTok -->
+    <a href="https://tiktok.com" target="_blank" class="icon" aria-label="TikTok">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#000000" d="M12 2c.597 0 1.077.482 1.077 1.077v12.77a2.154 2.154 0 1 1-2.153-2.154 2.15 2.15 0 0 1 .846.173V8.48a7.962 7.962 0 1 0 5.72 7.654V8.324a5.69 5.69 0 0 0 3.23.995c.597 0 1.077-.482 1.077-1.078V5.4a1.077 1.077 0 0 0-1.078-1.078 3.233 3.233 0 0 1-3.232-3.232A1.078 1.078 0 0 0 16.23 0h-3.154A1.077 1.077 0 0 0 12 1.077z"/>
+      </svg>
+    </a>
+  </div>
+
+  </div>
+  <p class="footer-bottom">&copy; 2025 Kirana Pasal. All rights reserved.</p>
+  <p class="footer-bottom">Designed by Laxman Bishwokarma</p>
+</footer>
+
+<a href="https://wa.me/+351915662368" target="_blank" class="whatsapp-float">
+  <img src="images/whatsapp(1).png" alt="WhatsApp" />
+</a>
+
+</body>
+<script src="app.js"></script>
+</html>
+
+  color: #080a8a;
