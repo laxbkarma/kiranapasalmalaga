@@ -12,10 +12,9 @@ nav {
   justify-content: space-between; /* space between logo and menu */
   align-items: center;
   padding: 0px 20px;
-  position: sticky; /* stays visible while scrolling */
+  position: relative; /* stays visible while scrolling */
   height: 60px;
   top: 0;
-  z-index: 1000; /* stays above other content */
 }
 
 /* Logo/brand */
